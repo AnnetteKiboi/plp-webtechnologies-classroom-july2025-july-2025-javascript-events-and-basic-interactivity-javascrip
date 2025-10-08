@@ -1,0 +1,47 @@
+/* 🌈 General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.feature {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* 🌙 Dark Mode */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+/* 🚫 Error Styling */
+.error {
+  color: red;
+  font-size: 0.85em;
+  display: block;
+  margin-top: 4px;
+}
